@@ -5,7 +5,7 @@ NIM: 24090098
 
 ## Link Project
 
-GitHub Repository: https://github.com/username/nama-repo
+GitHub Repository: https://github.com/sttryanaa/uts-sititriyana-24090098
 
 GitHub Pages (Live Preview):  https://username.github.io/nama-repo/
 
