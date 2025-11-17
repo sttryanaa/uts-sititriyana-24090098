@@ -5,9 +5,9 @@ NIM: 24090098
 
 ## Link Project
 
-GitHub Repository: https://github.com/sttryanaa/uts-sititriyana-24090098
+GitHub Repository: https://github.com/sttryanaa/uts-sititriyana-24090098/
 
-GitHub Pages (Live Preview):  https://username.github.io/nama-repo/
+GitHub Pages (Live Preview):  https://sttryanaa.github.io/uts-sititriyana-24090098/
 
 ## Struktur Folder Project
 
