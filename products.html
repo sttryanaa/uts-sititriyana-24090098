@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lihat <Datal></Datal> Product</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- MATERIAL SYMBOLS -->
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@300&display=swap" />
+</head>
+
+<body class="dashboard">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <a href="dashboard.html" class="icon"><span class="material-symbols-rounded">home</span></a>
+        <a href="products.html" class="icon"><span class="material-symbols-rounded">grid_view</span></a>
+        <a class="icon"><span class="material-symbols-rounded">attach_money</span></a>
+        <a class="icon"><span class="material-symbols-rounded">bar_chart</span></a>
+        <a class="icon"><span class="material-symbols-rounded">settings</span></a>
+    </div>
+
+    <!-- CONTENT -->
+    <main class="content">
+        <h1 class="title">List Data Product</h1>
+
+        <div class="table-box">
+          <table>
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Aksi</th>
+              </tr>
+            </thead>
+
+            <tbody id="productTable"></tbody>
+          </table>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

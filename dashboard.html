@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <!-- LINK STYLE.CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- MATERIAL SYMBOLS -->
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@200;300&display=swap"/>
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <a href="dashboard.html" class="icon"><span class="material-symbols-rounded">home</span></a>
+        <a href="products.html" class="icon"><span class="material-symbols-rounded">grid_view</span></a>
+        <a href="#" class="icon"><span class="material-symbols-rounded">attach_money</span></a>
+        <a href="#" class="icon"><span class="material-symbols-rounded">bar_chart</span></a>
+        <a href="#" class="icon"><span class="material-symbols-rounded">settings</span></a>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main class="content">
+        <h1>Dashboard</h1>
+
+        <div class="dashboard-cards">
+        
+            <!-- TOTAL PRODUCTS -->
+            <div class="card dashboard-link" onclick="window.location.href='products.html'">
+                <div class="icon">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="#A0A0A0">
+                    <path d="M6 7V6a6 6 0 0 1 12 0v1h1a1 1 0 0 1 1 1v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a1 1 0 0 1 1-1h1Zm2 0h8V6a4 4 0 1 0-8 0v1Z"/>
+                  </svg>
+                </div>
+                <div class="label">Total Products</div>
+                <div class="value">120</div>
+              </div>
+              
+              <div class="card">
+                <div class="icon">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="#A0A0A0">
+                    <path d="M6 7V6a6 6 0 0 1 12 0v1h1a1 1 0 0 1 1 1v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a1 1 0 0 1 1-1h1Zm2 0h8V6a4 4 0 1 0-8 0v1Z"/>
+                  </svg>
+                </div>
+                <div class="label">Total Sales</div>
+                <div class="value">85</div>
+              </div>
+              
+              <div class="card">
+                <div class="icon">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="#A0A0A0">
+                    <circle cx="12" cy="12" r="10" />
+                    <text x="12" y="16" text-anchor="middle" font-size="10" fill="white">$</text>
+                  </svg>
+                </div>
+                <div class="label">Total Revenue</div>
+                <div class="value">Rp 12.500.000</div>
+              </div>              
+        </div>
+        
+
+        <a href="products.html" class="btn-product">Lihat Data Produk</a>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
