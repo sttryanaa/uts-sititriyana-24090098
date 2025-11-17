@@ -5,11 +5,9 @@ NIM: 24090098
 
 ## Link Project
 
-GitHub Repository: 
-https://github.com/username/nama-repo
+GitHub Repository: https://github.com/username/nama-repo
 
-GitHub Pages (Live Preview):  
-https://username.github.io/nama-repo/
+GitHub Pages (Live Preview):  https://username.github.io/nama-repo/
 
 ## Struktur Folder Project
 
@@ -34,7 +32,7 @@ Project ini merupakan aplikasi web sederhana untuk menampilkan data produk mengg
 ## 1. Login Page — 'index.html'
 - Memasukkan Email & Password (NIM)
 - Validasi input (tidak boleh kosong)
-- Jika valid → redirect ke Dashboard
+- Jika valid -> redirect ke Dashboard
 - Dibuat sederhana tanpa backend (dummy validation)
 
 
@@ -67,8 +65,8 @@ Project ini merupakan aplikasi web sederhana untuk menampilkan data produk mengg
 1. Buka file GitHub Pages
 2. Halaman akan langsung terbuka di index.html
 2. Masukkan email dan password
-3. Klik Login → masuk dashboard
-4. Klik Total Products → menuju daftar produk
+3. Klik Login -> masuk dashboard
+4. Klik Total Products -> menuju daftar produk
 5. Coba tombol Edit & Delete di tabel
 
 
