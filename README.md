@@ -11,7 +11,7 @@ https://github.com/username/nama-repo
 GitHub Pages (Live Preview):  
 https://username.github.io/nama-repo/
 
-## Struktur Folder project
+## Struktur Folder Project
 
 uts-web/ 
 ├── index.html -> halaman login          
@@ -21,6 +21,8 @@ uts-web/
 │   └── style.css 
 ├── js/ 
 │   └── script.js 
+├── img/ 
+│   └── login.jpg 
 └── README.md 
 
 
